@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Connector_Conn_01x05_Female
+# SofleKeyboard-rescue_Conn_01x05_Female-Connector
 #
-DEF Connector_Conn_01x05_Female J 0 40 Y N 1 F N
+DEF SofleKeyboard-rescue_Conn_01x05_Female-Connector J 0 40 Y N 1 F N
 F0 "J" 0 300 50 H V C CNN
-F1 "Connector_Conn_01x05_Female" 0 -300 50 H V C CNN
+F1 "SofleKeyboard-rescue_Conn_01x05_Female-Connector" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -435,19 +435,6 @@ X C C -350 -100 100 R 50 50 1 1 P
 X NC NC -350 -200 100 R 50 50 1 1 U
 X S1 S1 -100 250 100 D 50 50 1 1 O
 X S2 S2 0 250 100 D 50 50 1 1 O
-ENDDRAW
-ENDDEF
-#
-# power_GND
-#
-DEF power_GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power_GND" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #

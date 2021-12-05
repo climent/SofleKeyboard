@@ -1,4 +1,4 @@
 (fp_lib_table
-  (lib (name footprints)(type KiCad)(uri /Users/climent/Sources/chocofly/footprints)(options "")(descr ""))
-  (lib (name Kicad-footprints)(type KiCad)(uri /Users/climent/Sources/SofleKeyboard_palm/footprints/Kicad-footprints.pretty)(options "")(descr ""))
+  (lib (name SofleKeyboard-footprint)(type KiCad)(uri ${KIPRJMOD}/../../footprints/SofleKeyboard-footprint.pretty)(options "")(descr ""))
+  (lib (name Kicad-Footprints)(type KiCad)(uri ${KIPRJMOD}/../../footprints/Kicad-Footprints)(options "")(descr ""))
 )

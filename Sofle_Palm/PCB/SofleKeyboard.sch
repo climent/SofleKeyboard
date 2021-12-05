@@ -2661,7 +2661,7 @@ ENCA
 Text GLabel 4050 4400 0    50   Input ~ 0
 ENCB
 $Comp
-L power:GND #PWR0104
+L SofleKeyboard-rescue:GND-power #PWR0104
 U 1 1 61AE462D
 P 3750 4600
 F 0 "#PWR0104" H 3750 4350 50  0001 C CNN
@@ -2680,7 +2680,7 @@ SW25A
 Text GLabel 4400 4150 1    50   Input ~ 0
 SW25B
 $Comp
-L Connector:Conn_01x05_Female J7
+L SofleKeyboard-rescue:Conn_01x05_Female-Connector J7
 U 1 1 61ADF65E
 P 2250 4250
 F 0 "J7" H 2278 4276 50  0000 L CNN
@@ -2699,7 +2699,7 @@ SW25A
 Text GLabel 2050 4450 0    50   Input ~ 0
 SW25B
 $Comp
-L power:GND #PWR0105
+L SofleKeyboard-rescue:GND-power #PWR0105
 U 1 1 61AE6AB3
 P 2050 4050
 F 0 "#PWR0105" H 2050 3800 50  0001 C CNN
