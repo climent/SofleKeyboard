@@ -1,3 +1,6 @@
 [submodule "footprints/Keebio-Parts.pretty"]
 	path = footprints/Keebio-Parts.pretty
 	url = git@github.com:keebio/Keebio-Parts.pretty.git
+[submodule "footprints/Kicad-Footprints"]
+	path = footprints/Kicad-Footprints
+	url = https://github.com/davidphilipbarr/Kicad-Footprints.git
