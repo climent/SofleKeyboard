@@ -1489,4 +1489,46 @@ F 3 "" H 4100 3500 50  0001 C CNN
 $EndComp
 Text GLabel 3900 3500 0    50   Input ~ 0
 LED
+$Comp
+L evqwgd001:EVQWGD001 SW31
+U 1 1 61C5400C
+P 5600 1700
+F 0 "SW31" H 5878 1754 50  0000 L CNN
+F 1 "EVQWGD001" H 5878 1663 50  0000 L CNN
+F 2 "SofleRGB:EVQWGD001" H 5600 1700 50  0001 C CNN
+F 3 "" H 5600 1700 50  0001 C CNN
+	1    5600 1700
+	1    0    0    -1  
+$EndComp
+Text GLabel 5250 1600 0    50   Input ~ 0
+ENCA
+Text GLabel 5250 1700 0    50   Input ~ 0
+ENCB
+Text GLabel 5250 1800 0    50   Input ~ 0
+GND
+Text GLabel 5500 1450 1    50   Input ~ 0
+SW25A
+Text GLabel 5600 1450 1    50   Input ~ 0
+SW25B
+$Comp
+L Connector:Conn_01x05_Female J4
+U 1 1 61C6FCA3
+P 4200 4250
+F 0 "J4" H 4228 4276 50  0000 L CNN
+F 1 "Conn_01x05_Female" H 4228 4185 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Horizontal" H 4200 4250 50  0001 C CNN
+F 3 "~" H 4200 4250 50  0001 C CNN
+	1    4200 4250
+	1    0    0    -1  
+$EndComp
+Text GLabel 4000 4050 0    50   Input ~ 0
+GND
+Text GLabel 4000 4150 0    50   Input ~ 0
+ENCA
+Text GLabel 4000 4250 0    50   Input ~ 0
+ENCB
+Text GLabel 4000 4350 0    50   Input ~ 0
+SW25A
+Text GLabel 4000 4450 0    50   Input ~ 0
+SW25B
 $EndSCHEMATC
