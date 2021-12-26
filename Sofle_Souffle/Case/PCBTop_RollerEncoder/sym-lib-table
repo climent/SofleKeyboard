@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name evqwgd001)(type Legacy)(uri ${KIPRJMOD}/../../..//symbols/evqwgd001.lib)(options "")(descr ""))
+)
