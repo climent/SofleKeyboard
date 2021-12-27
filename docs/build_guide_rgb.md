@@ -55,9 +55,9 @@ The following is needed to build the keyboard.
 	
 - **LEDs**
 	- **SK6812 mini rgb leds (3.5mmx3.5mm size)** make sure that you get the style with irregular shaped pads that are flush to the led, and make very sure that you know what the pinout for your variant is. There are at least  2 common pinouts, thankfully just rotated 180 degrees, but for you the pin 1 marking may be on pin 3.
-		- **1x forward facing layer indicator**
-		- **6x rear facing drop lights**
-		- **29x per key lights** 
+		- **2x forward facing layer indicator**
+		- **12x rear facing drop lights**
+		- **58x per key lights** 
 
 
 
@@ -205,7 +205,7 @@ Suggested approach is to build the firmware yourself. You should be familiar wit
 
 - Make sure your QMK environment [is setup][qmkintro].
 - Make sure halves are not connected together with TRRS cable.
-- Connect one half to USB, flash the firmware (always follow the actuall instructions in the QMK documentation! The command might look something like this: `qmk flash -kb sofle/rev1 -km default`). Use the reset button to reset the keyboard when you are asked to in console. 
+- Connect one half to USB, flash the firmware (always follow the actuall instructions in the QMK documentation! The command might look something like this: `qmk flash -kb sofle/rev1 -km rgb_default`). Use the reset button to reset the keyboard when you are asked to in console. 
 - Connect the second half and flash it in the same way as the previous one.
 - Disconnect the USB cable. Connect both halves together with TRRS cable.
 - Connect USB cable to the **left** side. 
