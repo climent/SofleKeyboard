@@ -166,7 +166,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "SofleKeyboardTopPlate.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

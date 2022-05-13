@@ -161,7 +161,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "svg/SofleKeyboardBottomPlate.STEP",
+      "step": "SofleKeyboardBottomPlate.STEP",
       "vrml": ""
     },
     "page_layout_descr_file": ""
