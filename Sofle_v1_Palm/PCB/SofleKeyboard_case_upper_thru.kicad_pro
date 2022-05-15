@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 2.2,
-          "height": 4.0,
-          "width": 4.0
+          "drill": 4.7004,
+          "height": 4.7004,
+          "width": 4.7004
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -111,7 +111,11 @@
         "min_via_diameter": 0.39999999999999997,
         "use_height_for_length_calcs": true
       },
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.25,
+        0.5
+      ],
       "via_dimensions": [],
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
@@ -127,7 +131,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "SofleKeyboardTopPlate.kicad_pro",
+    "filename": "SofleKeyboard_case_upper.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -145,8 +149,48 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
-        "via_diameter": 0.6,
-        "via_drill": 0.4,
+        "via_diameter": 0.4,
+        "via_drill": 0.3,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "GND",
+        "nets": [
+          "GND"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "via_diameter": 0.4,
+        "via_drill": 0.3,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "VCC",
+        "nets": [
+          "VCC"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "via_diameter": 0.4,
+        "via_drill": 0.3,
         "wire_width": 6.0
       }
     ],
@@ -161,49 +205,25 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "svg/SofleKeyboard_case_upper.STEP",
       "vrml": ""
     },
     "page_layout_descr_file": ""
   },
   "schematic": {
     "drawing": {
+      "default_text_size": 50,
       "label_size_ratio": 0.25,
-      "pin_symbol_size": 0,
       "text_offset_ratio": 0.08
     },
     "legacy_lib_dir": "",
-    "legacy_lib_list": [
-      "power",
-      "device",
-      "transistors",
-      "conn",
-      "linear",
-      "regul",
-      "74xx",
-      "cmos4000",
-      "adc-dac",
-      "memory",
-      "xilinx",
-      "microcontrollers",
-      "dsp",
-      "microchip",
-      "analog_switches",
-      "motorola",
-      "texas",
-      "intel",
-      "audio",
-      "interface",
-      "digital-audio",
-      "philips",
-      "display",
-      "cypress",
-      "siliconi",
-      "opto",
-      "atmel",
-      "contrib",
-      "valves"
-    ]
+    "legacy_lib_list": [],
+    "net_format_name": "Pcbnew",
+    "page_layout_descr_file": "",
+    "plot_directory": "",
+    "spice_adjust_passive_values": false,
+    "subpart_first_id": 65,
+    "subpart_id_separator": 0
   },
   "sheets": [],
   "text_variables": {}
